@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="hw4.js"></script>
+
+    <!-- Task 5 -->
+    <script>
+        let arr = ['ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ', 'ВС'];
+
+        for (let i = 0; i < arr.length; i++) 
+        {
+            if (arr[i] === 'СБ' || arr[i] === 'ВС') 
+            {
+                document.write('<b>' + arr[i] + '</b><br>');
+            } else 
+            {
+                document.write(arr[i] + '<br>');
+            }
+        }
+    </script>
+</body>
+
+</html>
